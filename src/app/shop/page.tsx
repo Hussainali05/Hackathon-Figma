@@ -25,6 +25,7 @@ import pic20 from "@/images/product-cover-5 (19).png";
 import fb from "@/images/facebook.png";
 import instagram from "@/images/ant-design_instagram-outlined.png";
 import twitter from "@/images/ant-design_twitter-outlined.png"
+import CardText from "../components/cards-text";
 
 
 const page = () => {
