@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Navbar from "../components/navbar";
-import GreenHeader from "../components/green-header";
+import Navbar from "../components/Navbar";
+import GreenHeader from "../components/Green-header";
 import arrow from "@/images/Vector (13).png";
 import cat1 from "@/images/card-item.png";
 import cat2 from "@/images/card-item (1).png";
@@ -25,7 +25,7 @@ import pic20 from "@/images/product-cover-5 (19).png";
 import fb from "@/images/facebook.png";
 import instagram from "@/images/ant-design_instagram-outlined.png";
 import twitter from "@/images/ant-design_twitter-outlined.png"
-import CardText from "../components/cards-text";
+import CardText from "../components/Cards-text";
 
 const page = () => {
   return (

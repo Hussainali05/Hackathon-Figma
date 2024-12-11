@@ -1,5 +1,5 @@
 import GreenHeader from "../components/Green-header";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Image from "next/image";
 import heart from "@/images/Vector (15).png";
 import cart from "@/images/icn favorite.png";

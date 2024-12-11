@@ -4,7 +4,7 @@ import Editors from "./components/Editorspick";
 import Footer from "./components/Footer";
 import GreenDiv from "./components/Green-div";
 import Lastdiv from "./components/Lastdiv";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import ProductCard from "./components/Product-card";
 import Whitediv from "./components/White-div";
 
