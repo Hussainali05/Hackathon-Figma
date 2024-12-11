@@ -1,7 +1,7 @@
 import Image from "next/image";
 import colours from "@/images/product-colors.png";
 
-export default function CardText() {
+export default function CardsText() {
   return (
     <div className="w-[239px] h-[188px] py-[25px] px-[25px] flex flex-col items-center justify-center gap-[10px]">
       <h5 className="w-full font-Montserrat font-bold text-[16px] leading-[24px] text-center text-[#252B42]">

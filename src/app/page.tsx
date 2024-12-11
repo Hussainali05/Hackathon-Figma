@@ -1,12 +1,12 @@
-import BlueHeader from "./components/blue-header";
-import Carausel from "./components/caraousel";
-import Editors from "./components/editorspick";
-import Footer from "./components/footer";
-import GreenDiv from "./components/green-div";
-import Lastdiv from "./components/lastdiv";
+import BlueHeader from "./components/Blue-header";
+import Carausel from "./components/Caraousel";
+import Editors from "./components/Editorspick";
+import Footer from "./components/Footer";
+import GreenDiv from "./components/Green-div";
+import Lastdiv from "./components/Lastdiv";
 import Navbar from "./components/navbar";
-import ProductCard from "./components/product-card";
-import Whitediv from "./components/white-dic";
+import ProductCard from "./components/Product-card";
+import Whitediv from "./components/White-dic";
 
 export default function Home(){
   return(

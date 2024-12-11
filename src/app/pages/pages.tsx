@@ -1,4 +1,4 @@
-import GreenHeader from "../components/green-header";
+import GreenHeader from "../components/Green-header";
 import Navbar from "../components/navbar";
 import Image from "next/image";
 import heart from "@/images/Vector (15).png";

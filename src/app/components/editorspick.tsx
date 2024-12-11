@@ -4,7 +4,7 @@ import women from "@/images/filter (1).png";
 import div1 from "@/images/filter (2).png";
 import div2 from "@/images/filter (3).png";
 
-export default function Editors() {
+export default function EditorSpick() {
   return (
     <div className="w-full flex justify-center py-[10px] absolute top-[850px] bg-[#f5f5f5]">
       <div className="w-[1050px] h-auto flex flex-col gap-[30px] bg-[#FAFAFA] p-[40px]">
