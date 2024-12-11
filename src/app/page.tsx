@@ -6,7 +6,7 @@ import GreenDiv from "./components/Green-div";
 import Lastdiv from "./components/Lastdiv";
 import Navbar from "./components/navbar";
 import ProductCard from "./components/Product-card";
-import Whitediv from "./components/White-dic";
+import Whitediv from "./components/White-div";
 
 export default function Home(){
   return(
