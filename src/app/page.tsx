@@ -1,6 +1,6 @@
 import BlueHeader from "./components/Blue-header";
 import Carausel from "./components/Caraousel";
-import Editors from "./components/Editorspick";
+import Editors from "./components/editorspick";
 import Footer from "./components/Footer";
 import GreenDiv from "./components/Green-div";
 import Lastdiv from "./components/Lastdiv";
