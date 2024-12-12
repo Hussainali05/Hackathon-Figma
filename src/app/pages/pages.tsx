@@ -5,8 +5,8 @@ import heart from "@/images/Vector (15).png";
 import cart from "@/images/icn favorite.png";
 import eye from "@/images/icn favorite (1).png";
 
-import mainImage from "@/images/single-product-1-cover-2.jpg"; // Replace with your main image
-import image1 from "@/images/single-product-1-thumb-1.jpg"; // Replace with your thumbnail images
+import mainImage from "@/images/single-product-1-cover-2.jpg";
+import image1 from "@/images/single-product-1-thumb-1.jpg";
 import image2 from "@/images/single-product-1-thumb-2.jpg";
 
 export default function Pages() {
@@ -16,7 +16,7 @@ export default function Pages() {
       <Navbar />
 
       {/* Product Section */}
-      <div className="container absolute top-[200px] left-[100px] mx-auto px-4 py-12 flex flex-col md:flex-row gap-8 font-Montserrat">
+      <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row gap-8 font-Montserrat">
         {/* Left Section - Image Slider */}
         <div className="flex-1">
           <div className="relative">
@@ -62,7 +62,7 @@ export default function Pages() {
             </button>
           </div>
           {/* Thumbnails */}
-          <div className="flex mt-4 gap-4">
+          <div className="flex mt-4 gap-4 justify-center md:justify-start">
             <Image
               src={image1}
               alt="Thumbnail 1"
@@ -139,7 +139,7 @@ export default function Pages() {
           </div>
 
           {/* Buttons */}
-          <div className="mt-6 flex items-center gap-4">
+          <div className="mt-6 flex items-center gap-4 flex-wrap">
             <button className="px-6 py-2 bg-[#23A6F0] text-white rounded-md hover:bg-blue-600">
               Select Options
             </button>

@@ -11,14 +11,14 @@ import pic8 from "@/images/product-cover-5 (7).png";
 
 export default function ProductCard() {
   return (
-    <div className="w-full absolute top-[1470px] left-0 flex justify-center">
-      <div className="w-[1124px] py-[80px] flex flex-col gap-[80px]">
+    <div className="w-full flex justify-center py-12">
+      <div className="max-w-[1124px] px-4 sm:px-6 md:px-8 flex flex-col gap-10">
         {/* Text Section */}
-        <div className="w-full flex flex-col gap-[10px] justify-center items-center">
-          <h4 className="font-Montserrat font-normal text-[20px] leading-[30px] text-[#737373]">
+        <div className="w-full flex flex-col gap-2 justify-center items-center text-center">
+          <h4 className="font-Montserrat font-normal text-[18px] sm:text-[20px] leading-[28px] sm:leading-[30px] text-[#737373]">
             Featured Products
           </h4>
-          <h3 className="font-Montserrat font-bold text-[24px] leading-[32px] text-[#252B42]">
+          <h3 className="font-Montserrat font-bold text-[22px] sm:text-[24px] leading-[30px] sm:leading-[32px] text-[#252B42]">
             BESTSELLER PRODUCTS
           </h3>
           <p className="font-Montserrat font-normal text-[14px] leading-[20px] text-[#737373]">
@@ -27,14 +27,20 @@ export default function ProductCard() {
         </div>
 
         {/* Card Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px]">
-          {/* Product Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {[picture1, pic2, pic3, pic4, pic5, pic6, pic7, pic8].map(
             (pic, index) => (
-              <div key={index} className="w-[238px] h-[615px] mx-auto">
-                <div className="w-full h-full">
-                  <div className="w-[239px] h-[427px]">
-                    <Image src={pic} alt={`picture${index + 1}`} />
+              <div
+                key={index}
+                className="w-full max-w-[238px] mx-auto transition-all duration-300 ease-in-out transform hover:scale-105"
+              >
+                <div className="w-full h-auto">
+                  <div className="w-full h-[300px] sm:h-[350px] md:h-[400px] lg:h-[427px]">
+                    <Image
+                      src={pic}
+                      alt={`picture${index + 1}`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <CardText />
                 </div>
